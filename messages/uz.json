@@ -1,0 +1,27 @@
+{
+  "Common": {"telegram": "Telegramga yozish"},
+  "Nav": {
+    "services": "Xizmatlar",
+    "industries": "Sohalar",
+    "cases": "Keyslar",
+    "blog": "Blog",
+    "careers": "Vakansiyalar",
+    "contact": "Aloqa"
+  },
+  "Home": {
+    "tagline": "Mahsulotlar yaratamiz. Tezroq ishga tushiramiz. Ishonchli kengaytiramiz",
+    "description": "Biz raqamli yechimlar yaratamiz."
+  },
+  "Services": {"title": "Xizmatlar"},
+  "Industries": {"title": "Sohalar"},
+  "Cases": {"title": "Keyslar"},
+  "Blog": {"title": "Blog"},
+  "Careers": {"title": "Vakansiyalar"},
+  "Contact": {"title": "Aloqa"},
+  "About": {"title": "Biz haqimizda"},
+  "Platform": {"title": "CanDo Platformasi"},
+  "Privacy": {"title": "Maxfiylik siyosati"},
+  "Terms": {"title": "Foydalanish shartlari"},
+  "Offer": {"title": "Ommaviy oferta"},
+  "DPA": {"title": "DPA"}
+}

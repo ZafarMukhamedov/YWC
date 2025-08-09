@@ -1,0 +1,27 @@
+{
+  "Common": {"telegram": "Написать в Telegram"},
+  "Nav": {
+    "services": "Услуги",
+    "industries": "Отрасли",
+    "cases": "Кейсы",
+    "blog": "Блог",
+    "careers": "Вакансии",
+    "contact": "Контакты"
+  },
+  "Home": {
+    "tagline": "Создаём продукты. Запускаем быстрее. Масштабируем надёжно",
+    "description": "Мы строим цифровые решения."
+  },
+  "Services": {"title": "Наши услуги"},
+  "Industries": {"title": "Отрасли"},
+  "Cases": {"title": "Кейсы"},
+  "Blog": {"title": "Блог"},
+  "Careers": {"title": "Вакансии"},
+  "Contact": {"title": "Контакты"},
+  "About": {"title": "О нас"},
+  "Platform": {"title": "Платформа CanDo"},
+  "Privacy": {"title": "Политика конфиденциальности"},
+  "Terms": {"title": "Условия использования"},
+  "Offer": {"title": "Публичная оферта"},
+  "DPA": {"title": "DPA"}
+}
