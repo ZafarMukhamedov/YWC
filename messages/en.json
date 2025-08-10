@@ -1,0 +1,27 @@
+{
+  "Common": {"telegram": "Message on Telegram"},
+  "Nav": {
+    "services": "Services",
+    "industries": "Industries",
+    "cases": "Cases",
+    "blog": "Blog",
+    "careers": "Careers",
+    "contact": "Contact"
+  },
+  "Home": {
+    "tagline": "We build products. Launch faster. Scale reliably",
+    "description": "We craft digital solutions."
+  },
+  "Services": {"title": "Services"},
+  "Industries": {"title": "Industries"},
+  "Cases": {"title": "Cases"},
+  "Blog": {"title": "Blog"},
+  "Careers": {"title": "Careers"},
+  "Contact": {"title": "Contact"},
+  "About": {"title": "About"},
+  "Platform": {"title": "CanDo Platform"},
+  "Privacy": {"title": "Privacy Policy"},
+  "Terms": {"title": "Terms of Use"},
+  "Offer": {"title": "Public Offer"},
+  "DPA": {"title": "DPA"}
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Yes We Can Technologies",
+  "short_name": "YWC",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A2430",
+  "theme_color": "#0DB2E6",
+  "icons": [
+    {
+      "src": "/assets/ywc-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+name: Preview
+on:
+  pull_request:
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v3
+        with:
+          version: 9
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - uses: vercel/action@v1
+        with:
+          token: ${{ secrets.VERCEL_TOKEN }}
+          org-id: ${{ secrets.VERCEL_ORG_ID }}
+          project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          scope: ${{ secrets.VERCEL_ORG_ID }}
+          prod: false
+        id: deploy
+      - name: Lighthouse
+        uses: treosh/lighthouse-ci-action@v11
+        env:
+          LHCI_BUILD_CONTEXT__CURRENT_BRANCH: ${{ github.head_ref }}
+          PREVIEW_URL: ${{ steps.deploy.outputs.preview-url }}
+        with:
+          urls: |
+            ${{ env.PREVIEW_URL }}/ru
+            ${{ env.PREVIEW_URL }}/uz
+            ${{ env.PREVIEW_URL }}/en
+          configPath: ./lighthouserc.json
